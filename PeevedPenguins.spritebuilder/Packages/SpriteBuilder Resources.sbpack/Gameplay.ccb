@@ -541,7 +541,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>_physicsNode</string>
 				<key>displayName</key>
 				<string>_physicsNode</string>
 				<key>memberVarAssignmentName</key>
