@@ -53,4 +53,10 @@
     [self runAction:follow];
 }
 
+-(void)retry{
+    
+    //use CCDirector to reload the whole scene
+    [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
+}
+
 @end
